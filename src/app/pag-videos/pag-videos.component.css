@@ -1,0 +1,57 @@
+.elemento {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/fotos-8113a.appspot.com/o/Geometry_Texture_Blue_Light_Blue_White_background_586221_2560x1440.jpg?alt=media&token=bfe508ad-cbb4-48e8-9251-6b15a8467e1e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 5%;
+    margin-bottom: 10%;
+  }
+  
+  .cards .red {
+    background-color: #168D9E;
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 30%; /* Ajusta el ancho para que tres tarjetas quepan en una fila */
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+  

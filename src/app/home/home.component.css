@@ -1,0 +1,45 @@
+.elemento {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/fotos-8113a.appspot.com/o/Geometry_Texture_Blue_Light_Blue_White_background_586221_2560x1440.jpg?alt=media&token=bfe508ad-cbb4-48e8-9251-6b15a8467e1e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.884), rgba(255, 255, 255, 0.884));
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+  width: 80%;
+  margin-top: 5%;
+  color: #168D9E;
+  font-size: 18px;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid #168D9E;
+}
+
+.titulo{
+ color: #168D9E;
+ font-weight: bold;
+ font-size: 40px;
+ text-align: center;
+}
+
+.subtitulo{
+  color: #168D9E;
+  font-weight: bold;
+  font-size: 25px;
+ }
+

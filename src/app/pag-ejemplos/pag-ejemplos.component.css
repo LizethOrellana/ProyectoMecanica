@@ -1,0 +1,114 @@
+.elemento {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/fotos-8113a.appspot.com/o/Geometry_Texture_Blue_Light_Blue_White_background_586221_2560x1440.jpg?alt=media&token=bfe508ad-cbb4-48e8-9251-6b15a8467e1e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.col {
+    flex: 1 0 40%; /* Ajusta el tamaño de las columnas */
+}
+
+.notifications-container {
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #2EBCD5;
+    transition: height 0.3s ease;
+}
+
+.card {
+    --bg: #f7f7f8;
+    --hover-bg: #FFE5F4;
+    --hover-text: black;
+    width: 100%;
+    text-align: center;
+    background: var(--bg);
+    padding: 1.5em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1), transform .15s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+}
+
+.card__body {
+    color: #464853;
+    line-height: 1.5em;
+    font-size: 1em;
+    display: none; /* Oculta el contenido por defecto */
+}
+
+.card > strong {
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: -.035em;
+}
+
+.card span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--hover-text);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.card:hover .card__body {
+    display: block;
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover {
+    background: var(--hover-bg);
+}
+
+.card:hover span {
+    margin-top: 0;
+}
+
+.card:not(:hover) span {
+    margin-top: 10px;
+    display: none; /* Oculta el contenido cuando no se pasa el mouse */
+}
