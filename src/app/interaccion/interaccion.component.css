@@ -29,7 +29,11 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     display: flex;
+<<<<<<< Updated upstream
     flex-direction: row;
+=======
+    flex-direction: column;
+>>>>>>> Stashed changes
     gap: 1rem;
     background-color: #2EBCD5;
     transition: height 0.3s ease;
@@ -78,8 +82,11 @@
     font-weight: bold;
     margin-top: 10px;
     transition: all .3s cubic-bezier(.6,.4,0,1);
+<<<<<<< Updated upstream
     width: 100%;
     background-color: blue;
+=======
+>>>>>>> Stashed changes
 }
 
 .card img {
