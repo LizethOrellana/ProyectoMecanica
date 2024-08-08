@@ -14,6 +14,7 @@ import { PagEjemplosComponent } from './pag-ejemplos/pag-ejemplos.component';
 import { PagPreguntasComponent } from './pag-preguntas/pag-preguntas.component';
 import { PagVideosComponent } from './pag-videos/pag-videos.component';
 import { FooterComponent } from './footer/footer.component';
+import { InteraccionComponent } from './interaccion/interaccion.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     PagPreguntasComponent,
     PagVideosComponent,
     FooterComponent,
+    InteraccionComponent,
   ],
   imports: [
     RouterModule.forRoot([
