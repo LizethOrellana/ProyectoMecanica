@@ -29,7 +29,7 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     background-color: #2EBCD5;
     transition: height 0.3s ease;
@@ -78,6 +78,8 @@
     font-weight: bold;
     margin-top: 10px;
     transition: all .3s cubic-bezier(.6,.4,0,1);
+    width: 100%;
+    background-color: blue;
 }
 
 .card img {
